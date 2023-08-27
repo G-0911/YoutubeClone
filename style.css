@@ -1,0 +1,138 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+/* top nav bar */
+#top-nav-bar{
+    position: fixed;
+    justify-content: space-between;
+    color: white;
+    background-color: #121212;
+    width: 99vw;
+    height: 10vh;
+}
+/* left */
+.menu{
+    width: 4vw;
+    padding: 1rem;
+}
+
+.yt-name{
+    font-family:'Franklin Gothic Medium';
+    font-weight:500 ;
+    font-size:1.7rem ;
+    margin: 0.4rem;
+}
+/* center */
+input{
+    outline: none;
+    padding: 0.5rem;  
+    background-color: #0f0f0f;
+    border: 1px solid hsl(0, 0%, 18.82%);
+    width: 25rem;
+    height: 5vh;
+    color: white;
+}
+input:focus{
+    transition: all 0.5s;
+    border: 1px solid #065fd4;
+}
+.search{
+    width: 3rem;
+    height: 5vh;
+    background-color: hsl(0, 0%, 18.82%);
+}
+.mic{
+    margin:0.5rem ;
+    height: 6vh;
+    width: 2.4rem;
+    background-color: #0f0f0f;
+    border-radius: 3rem;
+}
+/* right */
+.right i{
+    margin: 1rem;
+}
+
+/* left nav bar */
+#left-nav-bar{
+    position: fixed;
+    top: 10vh;
+    height: 90vh;
+    color: white;
+    width: 5vw;
+    font-size: 0.8rem;
+    background-color: #212121;
+}
+#left-nav-bar i{
+    margin-bottom: 0.5rem;
+}
+#left-nav-bar div{
+    font-size: 0.7rem;
+}
+.menu-item{
+    height: 4rem;
+    margin-bottom: 0.5rem;
+}
+.menu-item:hover{
+    transition: all 0.5s;
+    background-color: hsl(0, 0%, 18.82%);
+}
+
+/* Container */
+#container{
+    background-color: #181818;
+    padding: 1rem;
+    width: 95vw;
+    position: relative;
+    z-index: -1;
+    top: 10vh;
+    left: 5vw;
+}
+.box{
+    margin: 0.5rem;
+    flex-grow: 1;
+    height: 55vh;
+    width: 20vw;
+    justify-content: inherit;
+}
+img{
+    width: 20vw;
+    height: 38vh;
+}
+.text-content{
+    color: white;
+}
+.content-right{
+    width:15vw;
+    padding: 0.2rem 1rem;
+}
+.content-right div{
+    margin: 0.2rem;
+}
+.content-head{
+    font-size: 1rem;
+}
+.info{
+    color: #717171;
+    
+}
+.container-box{
+    justify-content: initial;
+    flex-wrap: wrap;
+}
